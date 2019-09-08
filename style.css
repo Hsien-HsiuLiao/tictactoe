@@ -1,0 +1,42 @@
+#tictactoe{
+  margin: 100px 500px;
+  color:white;
+  background-color: black;
+  
+  /* content area*/
+  height: 250px;
+  width:250px;
+  /* content area */
+  
+  /*color padding */
+  padding: 20px;
+  
+  background-clip: content-box;
+  box-shadow: inset 0 0 0 20px lightGreen;
+  /*color padding */
+/*  box-shadow: 5px 10px 8px grey;*/
+  border-radius:5%;
+  }
+
+h1 {
+    text-align: center;
+  }
+
+#Xselected{
+  /* border:dashed; */
+  border-radius:25%;
+  width: 60px;
+  margin:5px;
+  }
+
+#Oselected{
+  /* border:dashed; */
+  border-radius:25%;
+  width: 60px;
+  margin:5px;
+  
+}
+
+#Xselected:hover, #Oselected:hover {
+  border:dashed;
+}
